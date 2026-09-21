@@ -84,7 +84,7 @@ class current extends account{
     }
 }
 echo "Current Account Class inheritance account class"."<br>";
-$current=new current(12345678,'Tirth',100000,2000,5000);
+$current=new current(12345678,'PHP',100000,2000,5000);
 echo $current->getterid();
 $current->main();
 $current->balance();
